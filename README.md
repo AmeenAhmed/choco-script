@@ -28,11 +28,24 @@ Choco-Script has the familiar C-Style syntax, not much different from Javascript
 - No type coercion - Only '==' in ChocoScript and which translates to '==='
 - Semicolon is mandatory
 - Range literal eg: [0..7] which is an array with values from 0 to 7
+
+```js
+var array = [1..10];
+```
 - For Each loop
+
+```js
+var array = [1,2,3];
+
+foreach(i in array) {
+	console.log(array[i]);
+}
+
+```
 - String Interpolation
 
 ```js
-var name = 'Ameen'
+var name = 'Ameen';
 
 // Stores 'Hello, Ameen'
 var greet = 'Hello, ${name}';
@@ -45,7 +58,7 @@ var Batman = {
 }
 
 // returns true
-o has 'description'
+Batman has 'description'
 ```
 
 - Define keyword - Defines a constant, works like a C macro
@@ -58,9 +71,9 @@ var area = PI * r * r;
 ```
 
 
-- Class 
+#- Class 
 
--- Declaration
+- Declaration
 
 ```js
 class Chicken {
@@ -68,7 +81,7 @@ class Chicken {
 };
 ```
 
--- Access specifiers - Class can have public and private varriables and functions
+- Access specifiers - Class can have public and private varriables and functions
 
 ```js
 class Chicken {
@@ -77,7 +90,7 @@ class Chicken {
 };
 ```
 
--- Constructor - is defined by the same name as the class and should always be public
+- Constructor - is defined by the same name as the class and should always be public
 
 ```js
 class Chicken {
@@ -90,7 +103,7 @@ class Chicken {
 }
 ```
 
--- public items are accessed using the 'this' keyword and private items directly
+- public items are accessed using the 'this' keyword and private items directly
 
 ```js
 class Chicken {
