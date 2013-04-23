@@ -1,5 +1,5 @@
-Choco-Script
-============
+# Choco-Script
+
 
 A delicious language which compiles to javascript. 
 
@@ -71,9 +71,10 @@ var area = PI * r * r;
 ```
 
 
-#- Class 
+# Class 
 
-- Declaration
+Declaration
+-----------
 
 ```js
 class Chicken {
@@ -81,8 +82,8 @@ class Chicken {
 };
 ```
 
-- Access specifiers - Class can have public and private varriables and functions
-
+Access specifiers - Class can have public and private varriables and functions
+------------------------------------------------------------------------------
 ```js
 class Chicken {
 	public var color;
@@ -90,7 +91,7 @@ class Chicken {
 };
 ```
 
-- Constructor - is defined by the same name as the class and should always be public
+Constructor - is defined by the same name as the class and should always be public
 
 ```js
 class Chicken {
@@ -103,7 +104,7 @@ class Chicken {
 }
 ```
 
-- public items are accessed using the 'this' keyword and private items directly
+Public items are accessed using the 'this' keyword and private items directly
 
 ```js
 class Chicken {
@@ -116,3 +117,4 @@ class Chicken {
 	}
 }
 ```
+
