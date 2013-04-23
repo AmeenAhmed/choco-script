@@ -1,0 +1,19 @@
+{
+	"name": "chocoscript",
+	"preferGlobal": "true",
+	"version": "0.1.0",
+	"author": "AmeenAhmed <ameen.ahmed.b@gmail.com>",
+	"description": "Delicious Javascript",
+	"bin": {
+		"chocoscript": "./bin/chocoscript.js"
+	},
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/AmeenAhmed/choco-script"
+  	},
+	"dependencies": {
+		"underscore": "~1.4.4",
+	},
+	"license": "MIT",
+	"engines": ">=0.6"
+}

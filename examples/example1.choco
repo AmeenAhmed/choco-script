@@ -1,0 +1,26 @@
+var http = require('http');
+
+/*
+ *  Example program which starts a server and returns a string
+ */
+
+class Server {
+  static var server;
+
+  static function create() {
+    Server.server = http.createServer(function (req,res){ 
+
+      res.end('chocoscript is awesome!!!');
+
+    });
+  }
+
+  static function start() {
+    Server.server.listen(3000);
+  }
+
+};
+
+
+Server.create();
+Server.start();
