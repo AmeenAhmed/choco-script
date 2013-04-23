@@ -160,6 +160,7 @@ Roadmap
 - Namespaces
 - Interface
 - Import and export
+- Operator overloading
 
 The MIT License (MIT)
 --
