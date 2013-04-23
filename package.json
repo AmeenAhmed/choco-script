@@ -12,7 +12,7 @@
 	    "url": "https://github.com/AmeenAhmed/choco-script"
   	},
 	"dependencies": {
-		"underscore": "~1.4.4",
+		"underscore": "~1.4.4"
 	},
 	"license": "MIT",
 	"engines": ">=0.6"

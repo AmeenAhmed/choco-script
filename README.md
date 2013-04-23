@@ -1,5 +1,10 @@
 Choco-Script
 ============
 
+A delicious language which compiles to javascript. 
 
-A delicious language which compiles to strict javascript.
+#Installation
+
+```sh
+sudo npm install chocoscript -g
+```
