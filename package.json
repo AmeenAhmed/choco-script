@@ -1,7 +1,7 @@
 {
 	"name": "chocoscript",
 	"preferGlobal": "true",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"author": "AmeenAhmed <ameen.ahmed.b@gmail.com>",
 	"description": "Delicious Javascript",
 	"bin": {
