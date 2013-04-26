@@ -19,8 +19,9 @@ class Server {
     Server.server.listen(3000);
   }
 
-};
-
+}
 
 Server.create();
 Server.start();
+
+
