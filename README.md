@@ -156,7 +156,6 @@ var Batman = new SuperHero('Bruce Wayne', 'Batman');
 
 Roadmap
 --
-- Ternery operator
 - Namespaces
 - Interface
 - Import and export
