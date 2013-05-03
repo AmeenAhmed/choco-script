@@ -1,12 +1,13 @@
 {
 	"name": "chocoscript",
 	"preferGlobal": "true",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"author": "AmeenAhmed <ameen.ahmed.b@gmail.com>",
 	"description": "Delicious Javascript",
 	"bin": {
 		"chocoscript": "./bin/chocoscript.js"
 	},
+	"main": "./lib/chocoscript.js",
 	"repository": {
 	    "type": "git",
 	    "url": "https://github.com/AmeenAhmed/choco-script"

@@ -1,4 +1,4 @@
-var http = require('http');
+module 'http';
 
 /*
  *  Example program which starts a server and returns a string

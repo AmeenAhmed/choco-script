@@ -21,7 +21,17 @@ chocoscript example.choco
 chocoscript example.choco -c
 ```
 
-Choco-Script has the familiar C-Style syntax, not much different from Javascript. 
+#Usage in code
+
+```js
+var choco = require('chocoscript');
+
+// compile the code and return js
+var js = choco.compile('var x = [1..10];');
+
+// directly run the chocoscript code
+choco.run('var x = [1..10];');
+```
 
 # Features
 
