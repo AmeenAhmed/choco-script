@@ -21,6 +21,37 @@ class Server {
 
 }
 
+for i=1 to 10 def
+	console.log(i);
+end
+
+
+var x = 1==1 ? true : false;
+
+console.log(x); 
+
+def hello ()
+	console.log('Hello From ruby like function!');
+end
+
+def func() 
+  self.x = 100;
+end
+
+var f = def ()
+  console.log('Hello from func!');
+end;
+
+f();
+
+
+
+
+
+console.log(new func());
+
+hello();
+
 Server.create();
 Server.start();
 
