@@ -154,12 +154,36 @@ var Batman = new SuperHero('Bruce Wayne', 'Batman');
 
 ```
 
+Module and Import
+
+```js
+
+module 'http';
+
+// translates to var http = require('http');
+
+module 'node-test'
+
+// translates to var node_test = require('node-test');
+
+import 'hello';
+
+// loads the moudle './hello.choco' in place
+
+import 'hello.world';
+
+// loads the module './hello/world.choco' in place
+```
+
+Currently 'import' just loads the file inplace before compilation, so all the variables are available directly.
+
+
 Roadmap
 --
 - Namespaces
 - Interface
-- Import and export
 - Operator overloading
+- Source maps
 
 The MIT License (MIT)
 --
