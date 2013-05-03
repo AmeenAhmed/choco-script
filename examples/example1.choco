@@ -15,6 +15,10 @@ class Server {
     });
   }
 
+  function close() {
+
+  }
+
   static function start() {
     Server.server.listen(3000);
   }
