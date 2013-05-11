@@ -1,0 +1,12 @@
+class Foo {
+
+  static function runEach(cb) {
+    cb(42);
+  }
+
+  static function Run () {
+    Foo.runEach(lambda(x) console.log(x));
+  }
+}
+
+Foo.Run();
